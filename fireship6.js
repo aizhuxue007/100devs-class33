@@ -12,6 +12,6 @@ const codeBlocker = () => {
 
 log('sync 1')
 
-log(codeBlocker())
+codeBlocker().then(result => log(result))
 
 log('sync 2')
